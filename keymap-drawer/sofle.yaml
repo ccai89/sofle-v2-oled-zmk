@@ -1,7 +1,66 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI]
+  default:
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - DELETE
+  - TAB
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - BSPC
+  - ESC
+  - A
+  - R
+  - S
+  - T
+  - G
+  - M
+  - N
+  - E
+  - I
+  - O
+  - ''''
+  - LSHFT
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - MUTE
+  - ''
+  - K
+  - H
+  - ','
+  - .
+  - /
+  - RSHFT
+  - LGUI
+  - LALT
+  - LCTRL
+  - {t: ENTER, h: lower}
+  - {t: TAB, h: raise}
+  - {t: BACKSPACE, h: lower}
+  - {t: SPACE, h: raise}
+  - RCTRL
+  - RALT
+  - RGUI
   lower:
   - '&studio_unlock'
   - F1
@@ -118,9 +177,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -179,9 +238,9 @@ layers:
   - ''
   - ''
   - {type: held}
-  - ''
-  - ''
   - {type: held}
+  - ''
+  - ''
   - ''
   - ''
   - ''
